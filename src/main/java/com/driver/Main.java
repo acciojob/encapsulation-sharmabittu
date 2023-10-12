@@ -5,8 +5,8 @@ public class Main {
   public static void main(String args[]){
     RWOnly o = new RWOnly();
     String s = "Ok Gandu.";
-    o.setMember(s);
-    String name = o.getMember();
+    o.setName(s);
+    String name = o.getName();
 
     System.out.println(name);
   }
